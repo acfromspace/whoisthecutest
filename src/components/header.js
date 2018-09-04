@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Container } from 'semantic-ui-react'
 
+import './style.css'
+
 const Header = ({ siteTitle }) => (
-  <div style={{ background: 'rebeccapurple' }}>
+  <div className='header'>
     <Container>
-      <h1 style={{ padding: '1rem 0', marginBottom: '2rem' }}>
-        <Link style={{ color: 'white' }} to="/">
+      <h1 style={{padding: '10rem', marginBottom: '3rem', textAlign: 'center'}}>
+        <Link style={{ color: 'white', font: '50px Georgia'}} to="/">
           {siteTitle}
         </Link>
       </h1>

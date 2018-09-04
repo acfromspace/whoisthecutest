@@ -1,0 +1,38 @@
+/* HEADER */
+
+.header {
+    background: linear-gradient(45deg, #ffd1dc, #b19cd9);
+}
+
+/* .wrap {
+    min-height: 100%;
+}
+
+.main {
+    overflow: auto;
+    padding-bottom: 180px;
+} */
+
+/* Not working for some reason */
+
+/* .header h1 {
+    padding: 10rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.header Link  {
+    color: 'white';
+    font: '50px Georgia';
+} */
+
+/* FOOTER */
+
+/* .footer {
+    text-align: center;
+    padding: 3rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+} */

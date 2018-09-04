@@ -4,24 +4,29 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h2><span role="img" aria-label="Waving hand">👋</span> Hey there!</h2>
+    <h2><span role="img" aria-label="Waving hand">👋</span> Greetings!</h2>
 
     <p>
-      Welcome to this humble Gatsby Semantic UI starter. It is a very thin
-      layer on top of the regular Gatsby 2 starter. All that has been added is
-      Semantic UI as the component library of choice.
+      You might be wondering why you're here and why the person sent you this link.
+      Well look no further, if it's not obvious enough the cutest being is...
+    </p>
+
+    {/* marginBottom is at a default 14px */}
+    <p style={{font: '100px Georgia', textAlign: 'center', marginBottom: '14px'}}>YOU</p>
+
+    <p>
+      Of course the opinion is subjective, but isn't it amazing that someone out
+      there thinks <i>you're the cutest</i>?
     </p>
 
     <p>
-      Everything is pre-setup and ready to go. You can either use the default
-      Semantic UI theme as it currently runs, or you can override all variables
-      and make custom CSS changes in the <code>src/semantic/site</code> folder.
+      Go ahead and navigate around for some prizes!
     </p>
 
     <p>
-      The folder contains all the standard settings of the default theme so you
-      don't have to remember which variables are available.
+     You deserve it you cute person!
     </p>
+
   </Layout>
 )
 

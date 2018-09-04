@@ -5,6 +5,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import { Container, Grid, Menu } from 'semantic-ui-react'
 
 import Header from './header'
+import Footer from './footer'
+
+import './style.css'
 
 import 'semantic-ui-less/semantic.less'
 import { Link } from 'gatsby'
@@ -29,26 +32,43 @@ const Layout = ({ children, data }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Who is the cutest?' },
+            { name: 'keywords', content: 'you' },
           ]}
         />
 
         <Header siteTitle={data.site.siteMetadata.title} />
 
+        {/* a container limits content to a maximum width */}
         <Container>
+          {/* a grid issued to harmonize negative space in a layout */}
+          {/* relaxed = a grid can increase its gutters to allow for more negative space */}
+          {/* stackable = a grid can have its columns stack on-top of each other after reaching mobile breakpoints */}
           <Grid relaxed stackable>
-            <Grid.Column mobile={16} tablet={4} computer={4}>
-              <Menu vertical fluid>
-                <LinkedItem to='/' exact>Home</LinkedItem>
-                <LinkedItem to='/page-2'>Second Page</LinkedItem>
-                <LinkedItem to='/404'>404 Example Page</LinkedItem>
-              </Menu>
-            </Grid.Column>
+            <Grid.Row>
 
-            <Grid.Column mobile={16} tablet={8} computer={8}>
-              {children}
-            </Grid.Column>
+              <Grid.Column mobile={16} tablet={4} computer={4}>
+                <Menu vertical fluid>
+                  <LinkedItem to='/'><span role="img" aria-label="House With Garden">🏡</span> Home</LinkedItem>
+                  <LinkedItem to='/puppies'><span role="img" aria-label="Dog Face">🐶</span> Puppies</LinkedItem>
+                  <LinkedItem to='/page-3'><span role="img" aria-label="Videocassette">📼</span> Videos</LinkedItem>
+                  <LinkedItem to='/404'><span role="img" aria-label="Thinking Face">🤔</span> Who made this?</LinkedItem>
+                </Menu>
+              </Grid.Column>
+
+              <Grid.Column mobile={16} tablet={8} computer={8}>
+                {/* Content goes here */}
+                {children}
+              </Grid.Column>
+
+            </Grid.Row>
+
+            <Grid.Row centered Footer>
+
+              <Footer/>
+
+            </Grid.Row>
+
           </Grid>
         </Container>
       </>
