@@ -1,2 +1,4 @@
 # whoisthecutest
-Fun website.
+> Fun website.
+
+Best viewed on Desktop.
