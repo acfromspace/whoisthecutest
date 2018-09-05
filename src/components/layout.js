@@ -36,11 +36,15 @@ const Layout = ({ children, data }) => (
           ]}
         />
 
-        <div style={{ display: "flex", minHeight: "95vh", flexDirection: "column" }}>
+        <div style={{ display: "flex", minHeight: "98vh", flexDirection: "column" }}>
 
           {/* HEADER GOES HERE */}
 
-          <Header siteTitle={data.site.siteMetadata.title} />
+          <Grid>
+            <Grid.Column mobile={4} tablet={16} computer={16}>
+              <Header siteTitle={data.site.siteMetadata.title} />
+            </Grid.Column>
+          </Grid>
 
           {/* CONTENT GOES HERE */}
 
@@ -53,7 +57,7 @@ const Layout = ({ children, data }) => (
               <Grid relaxed stackable>
                 <Grid.Row>
                   <Grid.Column mobile={16} tablet={4} computer={4}>
-                    <Menu fluid tabular vertical>
+                    <Menu fluid vertical>
                       <MenuOption to='/'><span role="img" aria-label="House With Garden">🏡</span> Home</MenuOption>
                       <MenuOption to='/puppies'><span role="img" aria-label="Dog Face">🐶</span> Puppies</MenuOption>
                       <MenuOption to='/videos'><span role="img" aria-label="Videocassette">📼</span> Video</MenuOption>
