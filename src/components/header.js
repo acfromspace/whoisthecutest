@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 
 const Header = ({ mobile, siteTitle }) => (
   <div style={{ background: 'linear-gradient(45deg, #ffd1dc, #b19cd9)' }}>
-      <h1 style={{ padding: mobile ? '2rem' : '10rem', textAlign: 'center' }}>
-        <Link style={{ color: 'white', font: mobile ? '1em Georgia' : '3em Georgia' }} to="/">
+      <h1 style={{ padding: mobile ? '1rem' : '10rem', textAlign: 'center' }}>
+        <Link style={{ color: 'white', font: mobile ? '12px Georgia' : '3em Georgia' }} to="/">
           {siteTitle}
         </Link>
       </h1>
