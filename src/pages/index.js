@@ -11,7 +11,7 @@ const IndexPage = () => (
       Well look no further, if it's not obvious enough the cutest being is...
     </p>
 
-    {/* marginBottom is at a default 14px */}
+    {/* marginBottom is at a default 14px, most likely to normal text font */}
     <p style={{font: '100px Georgia', textAlign: 'center', marginBottom: '14px'}}>YOU</p>
 
     <p>

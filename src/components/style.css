@@ -1,38 +1,18 @@
 /* HEADER */
 
-.header {
+/* .wrapper {
+    display: "flex";
+    min-height: "100vh";
+    flex-direction: "column";
+} */
+
+/* .header {
     background: linear-gradient(45deg, #ffd1dc, #b19cd9);
-}
-
-/* .wrap {
-    min-height: 100%;
-}
-
-.main {
-    overflow: auto;
-    padding-bottom: 180px;
 } */
 
-/* Not working for some reason */
-
-/* .header h1 {
-    padding: 10rem;
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-.header Link  {
-    color: 'white';
-    font: '50px Georgia';
+/* .content {
+    margin-top: "3rem";
+    flex: 1;
 } */
 
-/* FOOTER */
-
-/* .footer {
-    text-align: center;
-    padding: 3rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: relative;
-} */
+/* Hold off for now, been giving problems */

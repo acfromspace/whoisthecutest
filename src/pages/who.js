@@ -4,7 +4,8 @@ import Layout from '../components/layout'
 
 const SecondPage = () => (
   <Layout>
-    <h2><span role="img" aria-label="Eyes">👀</span> I MADE THIS</h2>
+    <h2><span role="img" aria-label="Thinking Face">🤔</span> Who made this?</h2>
+    <p>I am @acfromspace!</p>
   </Layout>
 )
 

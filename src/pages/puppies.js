@@ -1,12 +1,13 @@
 import React from 'react'
+// import { Image } from 'semantic-ui-react'
 
 import Layout from '../components/layout'
 
-const SecondPage = () => (
+const Puppies = () => (
   <Layout>
-    <h2><span role="img" aria-label="Eyes">👀</span> Hello from the second page.</h2>
-    <p>    PUPPIES    PUPPIES    PUPPIES    PUPPIES    PUPPIES</p>
+    <h2><span role="img" aria-label="Dog Face">🐶</span> Puppies</h2>
+    <p>Enjoy the puppies!</p>
   </Layout>
 )
 
-export default SecondPage
+export default Puppies
