@@ -1,17 +1,19 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Container } from 'semantic-ui-react'
+import PropTypes from 'prop-types'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ mobile, siteTitle }) => (
   <div style={{ background: 'linear-gradient(45deg, #ffd1dc, #b19cd9)' }}>
-    <Container>
-      <h1 style={{ padding: '10rem', textAlign: 'center' }}>
-        <Link style={{ color: 'white', font: '50px Georgia' }} to="/">
+      <h1 style={{ padding: mobile ? '1rem' : '10rem', textAlign: 'center' }}>
+        <Link style={{ color: 'white', font: mobile ? '12px Georgia' : '3em Georgia' }} to="/">
           {siteTitle}
         </Link>
       </h1>
-    </Container>
   </div>
 )
+
+Header.propTypes = {
+  mobile: PropTypes.bool,
+}
 
 export default Header
