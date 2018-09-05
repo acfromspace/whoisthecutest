@@ -40,11 +40,7 @@ const Layout = ({ children, data }) => (
 
           {/* HEADER GOES HERE */}
 
-          <Grid>
-            <Grid.Column mobile={4} tablet={16} computer={16}>
-              <Header siteTitle={data.site.siteMetadata.title} />
-            </Grid.Column>
-          </Grid>
+          <Header siteTitle={data.site.siteMetadata.title} />
 
           {/* CONTENT GOES HERE */}
 
