@@ -12,7 +12,7 @@
 </h3>
 <p align="center">
   <strong>Mental Health website.</strong><br>
-  Created, with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a> and <a href="https://react.semantic-ui.com/" target="_blank">Semantic UI</a>, in order to address mental health.
+  Created with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a> and <a href="https://react.semantic-ui.com/" target="_blank">Semantic UI</a> in order to address mental health.
 </p>
 
 <!-- INFORMATION (Shields:IO) -->
