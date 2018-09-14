@@ -11,7 +11,7 @@
   <span role="img" aria-label="Medical Symbol">⚕️</span>
 </h3>
 <p align="center">
-  <strong>Mental Health website.</strong><br>
+  <strong>You are.</strong><br>
   Created with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a> and <a href="https://react.semantic-ui.com/" target="_blank">Semantic UI</a> in order to address mental health.
 </p>
 
