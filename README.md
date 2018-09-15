@@ -21,8 +21,6 @@
     <a href="https://github.com/acfromspace/whoisthecutest/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/mashape/apistatus.svg"
             alt="License: MIT"></a>
-    <img src="https://img.shields.io/badge/location-compromised%20by%20Thanos-red.svg"
-            alt="Location: Compromised by Thanos">
     <a href="https://twitter.com/intent/follow?screen_name=acfromspace">
         <img src="https://img.shields.io/twitter/follow/acfromspace.svg?style=social&logo=twitter"
             alt="Follow @acfromspace"></a>
