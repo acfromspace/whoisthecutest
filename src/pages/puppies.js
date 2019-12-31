@@ -1,11 +1,20 @@
 import React from 'react'
-import { Image as CloudImage, CloudinaryContext, Transformation } from "cloudinary-react";
+import {
+  Image as CloudImage,
+  CloudinaryContext,
+  Transformation,
+} from 'cloudinary-react'
 
 import Layout from '../components/layout'
 
 const Puppies = () => (
   <Layout>
-    <h2><span role="img" aria-label="Dog Face">🐶</span> Puppies</h2>
+    <h2>
+      <span role="img" aria-label="Dog Face">
+        🐶
+      </span>{' '}
+      Puppies
+    </h2>
     <p>Enjoy the puppies!</p>
     <CloudinaryContext cloudName="acfromspace">
       <CloudImage publicId="WhoIsTheCutest/doggo.gif">

@@ -15,7 +15,7 @@
   Created with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a> and <a href="https://react.semantic-ui.com/" target="_blank">Semantic UI</a> in order to address mental health.
 </p>
 
-<!-- INFORMATION (Shields:IO) -->
+<!-- BADGES -->
 
 <p align="center">
     <a href="https://github.com/acfromspace/whoisthecutest/blob/master/LICENSE">
@@ -25,7 +25,7 @@
         <img src="https://www.repostatus.org/badges/latest/unsupported.svg" alt="Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired." /></a>
 </p>
 
-<!-- FEATURES (Gif goes right below) -->
+<!-- FEATURES -->
 
 ![whoisthecutestdemo](https://user-images.githubusercontent.com/10361542/45251420-ac795100-b2fa-11e8-9b3e-a5daae6ae74b.GIF)
 
@@ -47,26 +47,6 @@
 - Install node packages `yarn install`
 - Serve it locally `gatsby develop`
 - Go to `https://localhost:8000`
-
-<!-- IN-DEPTH GUIDE -->
-
-<!-- EXTERNAL SERVICES -->
-
-<!-- ## <span role="img" aria-label="Doggo">🐕</span> Fetch information doggo! (External Services)
-
-The project uses external services. To use them you have to secure some access data. All services are free to use or have generous free tiers big enough for a personal project.
-
-Create an `.env` file like below in the root folder. Change `...` placeholders with your own keys.
-
-```text
-GOOGLE_ANALYTICS_ID=...
-ALGOLIA_APP_ID=...
-ALGOLIA_SEARCH_ONLY_API_KEY=...
-ALGOLIA_ADMIN_API_KEY=...
-ALGOLIA_INDEX_NAME=...
-```
-
-If you wish not to use external services, simply comment out the respective sections in `gatsby-config.js`. -->
 
 <!-- WHAT'S INSIDE? -->
 

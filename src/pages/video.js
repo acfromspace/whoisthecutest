@@ -1,19 +1,25 @@
 import React from 'react'
-import YouTubePlayer from "react-player/lib/players/YouTube";
+import YouTubePlayer from 'react-player/lib/players/YouTube'
 
 import Layout from '../components/layout'
 
 const Video = () => (
   <Layout>
-    <h2><span role="img" aria-label="Videocassette">📼</span> Video</h2>
+    <h2>
+      <span role="img" aria-label="Videocassette">
+        📼
+      </span>{' '}
+      Video
+    </h2>
     <p>This video will cheer you up!</p>
-    <YouTubePlayer url="https://www.youtube.com/watch?v=lAIGb1lfpBw"
+    <YouTubePlayer
+      url="https://www.youtube.com/watch?v=lAIGb1lfpBw"
       playing
       loop
       height="100%"
       width="100%"
     />
-    <br/>
+    <br />
     <p>[ みっちりねこマーチ ] MitchiriNeko March!</p>
   </Layout>
 )
