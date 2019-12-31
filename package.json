@@ -1,8 +1,8 @@
 {
   "name": "whoisthecutest",
   "description": "Mental Health",
-  "version": "1.0.0",
-  "author": "AC De Leon <aadeleon@sdsu.edu>",
+  "version": "1.0.1",
+  "author": "AC De Leon",
   "dependencies": {
     "cloudinary-react": "^1.0.6",
     "gatsby": "next",

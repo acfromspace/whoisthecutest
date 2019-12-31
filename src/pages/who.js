@@ -12,8 +12,8 @@ const Who = () => (
       Who made this?
     </h2>
     <p>Hello there, I go by <b>@acfromspace</b>, the creator of this website.</p>
-    <p>Goal of this website is to share with those in need of a smile.</p>
-    <p>From the National Institute of Mental Health in 2016:</p>
+    <p>Goal of this website is to address Mental Health.</p>
+    <p>From the National Institute of Mental Health (USA) in 2016:</p>
     <Segment>
       <List>
         <List.Item>
@@ -39,18 +39,19 @@ const Who = () => (
           <Icon name="heartbeat" />
           <List.Content>
             <List.Description>
-              From years 1999 to 2016, the death rate from suicides
-              dramatically rose by 28%.
+              Since 1999, the death rate from suicides dramatically rose by 28%. 
+              (32,400 to 45,000)
           </List.Description>
           </List.Content>
         </List.Item>
       </List>
     </Segment>
     <p>
-      Mental health is a serious issue, and we all deserve a chance to be happy
-      and knowing everything will be okay.
+      Mental health is a serious issue and the issue itself keeps growing every
+      year.
     </p>
-    <p>Reach out to me if you'd like to!</p>
+    <p>We all deserve a chance to be happy and knowing everything will be okay,
+      so reach out to me if you'd like to!</p>
     <Button
       color="github"
       onClick={() => window.open('https://github.com/acfromspace', '_blank')}
@@ -64,12 +65,6 @@ const Who = () => (
       }
     >
       <Icon name="linkedin" /> LinkedIn
-    </Button>
-    <Button
-      color="twitter"
-      onClick={() => window.open('https://twitter.com/acfromspace', '_blank')}
-    >
-      <Icon name="twitter" /> Twitter
     </Button>
   </Layout>
 )
