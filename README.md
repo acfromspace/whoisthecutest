@@ -59,16 +59,16 @@ A quick look at the top-level files and directories you'll see in this project.
 1  ├── node_modules/
 2  ├── public/
 3  ├── src/
-9  ├── .gitignore
-10 ├── .prettierrc
-11 ├── gatsby-browser
-12 ├── gatsby-config.js
-13 ├── gatsby-node.js
-14 ├── gatsby-ssr
-15 ├── LICENSE
-17 ├── package.json
-18 ├── README.md
-18 └── yarn.lock
+4  ├── .gitignore
+5  ├── .prettierrc
+6  ├── gatsby-browser
+7  ├── gatsby-config.js
+8  ├── gatsby-node.js
+9  ├── gatsby-ssr
+10 ├── LICENSE
+11 ├── package.json
+12 ├── README.md
+13 └── yarn.lock
 ```
 
 1. **`node_modules/`**: Location where [Node.js](https://nodejs.org/en/) packages are installed via [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/en/).
