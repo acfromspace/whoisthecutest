@@ -58,20 +58,18 @@ A quick look at the top-level files and directories you'll see in this project.
 
 ```
    .
-1  ├── public/
-2  ├── src/
-3  ├── .gitignore
-4  ├── gatsby-browser.js
-5  ├── gatsby-config.js
-6  ├── gatsby-node.js
-7  ├── gatsby-ssr.js
-8  ├── LICENSE
-9  ├── package.json
-10 ├── README.md
-11 └── yarn.lock
+1  ├── src/
+2  ├── .gitignore
+3  ├── gatsby-browser.js
+4  ├── gatsby-config.js
+5  ├── gatsby-node.js
+6  ├── gatsby-ssr.js
+7  ├── LICENSE
+8  ├── package.json
+9  ├── README.md
+10 └── yarn.lock
 ```
 
-1. **`public/`**: What is distributed to the viewing software so everyone can see your greatest creation!
 2. **`src/`**: All development usually occurs here. “src” is a convention for “source code”.
 3. **`.gitignore`**: This file tells `.git` which files it should not track nor maintain a version history for. For instance, you shouldn't let anyone get your `.env` files. (These usually contain your API keys)
 4. **`gatsby-browser.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/browser-apis/) that the file maintains that deals with client side rendering.
