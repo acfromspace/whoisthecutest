@@ -31,7 +31,7 @@
   <img src="https://user-images.githubusercontent.com/10361542/45251420-ac795100-b2fa-11e8-9b3e-a5daae6ae74b.GIF">
 </p>
 
-[_whoisthecutest_](https://whoisthecutest.netlify.com) is a blog website with the following features:
+[_whoisthecutest_](https://whoisthecutest.netlify.com) is a website with the following features:
 
 - **Blazing fast loading thanks to [Gatsby](https://www.gatsbyjs.org/).** Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to ecommerce sites to user dashboards. **_(Note: Uses Gatsby 2.0 Beta)_**
 
