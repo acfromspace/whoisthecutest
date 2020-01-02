@@ -71,7 +71,7 @@ A quick look at the top-level files and directories you'll see in this project.
 10 └── yarn.lock
 ```
 
-2. **`src/`**: All development usually occurs here. “src” is a convention for “source code”.
+2. **`src/`**: All development usually occurs here. `src` is a convention for “source code”.
 3. **`.gitignore`**: This file tells `.git` which files it should not track nor maintain a version history for. For instance, you shouldn't let anyone get your `.env` files. (These usually contain your API keys)
 4. **`gatsby-browser.js`**: Implements [certain APIs](https://www.gatsbyjs.org/docs/browser-apis/) that the file maintains that deals with client side rendering.
 5. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://next.gatsbyjs.org/docs/gatsby-config/) for more details).
