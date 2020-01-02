@@ -27,7 +27,9 @@
 
 <!-- FEATURES -->
 
-![whoisthecutestdemo](https://user-images.githubusercontent.com/10361542/45251420-ac795100-b2fa-11e8-9b3e-a5daae6ae74b.GIF)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/10361542/45251420-ac795100-b2fa-11e8-9b3e-a5daae6ae74b.GIF">
+</p>
 
 [_whoisthecutest_](https://whoisthecutest.netlify.com) is a blog website with the following features:
 
@@ -47,7 +49,6 @@ gatsby new YOU_PICK_NAME https://github.com/acfromspace/whoisthecutest
 cd YOU_PICK_NAME
 yarn install
 gatsby develop
-https://localhost:8000
 ```
 
 <!-- WHAT'S INSIDE? -->
